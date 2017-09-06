@@ -1,0 +1,177 @@
+
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+#features{
+   text-align: center;
+
+}
+#features img{
+   margin: 0 0 20px;
+}
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+   body{
+   -webkit-font-smoothing:antialisased;
+   text-rendering: optimizeLegibility;
+}
+   .well .page-header{
+
+      margin-top: 0;
+   }
+   .well{
+      margin:20px 0px;
+   }
+#moreCourses{
+   margin-left: 20px;
+   margin-right: 20px;
+}
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   .bcolor{
+      background: #071a8c;
+   }
+   .text{
+      text-decoration-color: white;
+   }
+   
+   #mySearch{
+      width: 200px;
+   }
+   .lsearch{
+      padding-right: 10px;
+   }
+   .navbar-brand{
+      padding: 13px 15px;
+   }
+   #colc{
+      color: white;
+   }
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+   #myCarousel{
+      margin-top: 60px;
+   }
+
+
+   .carousel-caption h3{
+      font-size: 40px;
+   }
+
+
+#myCarousel .item{ height:400px; }
+#slide1{
+   background: url('../../images/pilots-medium.jpg') top left no-repeat;
+}
+#slide2{
+   background: url('../../images/sukh-medium.jpg') top left no-repeat;
+}
+#slide3{
+   background: url('../../images/sukhoi-medium.jpg') top left no-repeat;
+}
+footer{
+   background: #464c4c;
+   color:white;
+   padding-top: 10px;
+}
+
+
+.icons {
+width: 35px;
+padding: 3px;
+border: 0;
+box-shadow: 0;
+display: inline;
+}
+.social{
+   padding-left: 20px
+}
+
+
+#para{
+   text-align: justify;
+}
+#map{
+   padding-top: 20px;
+}
+#title{
+   color:white;
+   font-size: 30px;
+   font-weight: bold;
+   padding-left: 10px;
+   padding-top: 10px;
+}
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+   #title{
+   font-size: 10px;
+}
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+      #myCarousel .item{ height:350px; }
+#slide1{
+   background: url('../../images/pilots-small.jpg') top left no-repeat;
+}
+#slide2{
+   background: url('../../images/sukh-small.jpg') top left no-repeat;
+}
+#slide3{
+   background: url('../../images/sukhoi-small.jpg') top left no-repeat;
+
+}
+.carousel-caption h3{
+      font-size: 22px;
+   }
+
+#title{
+   font-size: 16px;
+}
+
+#tab2{
+   padding-left: :20px;
+   padding-top: 20px;
+   font-weight: bold;
+}
+
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+   #myCarousel .item{ height:550px; }
+#slide1{
+   background: url('../../images/pilots-large.jpg') top left no-repeat;
+}
+#slide2{
+   background: url('../../images/sukh-large.jpg') top left no-repeat;
+}
+#slide3{
+   background: url('../../images/sukhoi-large.jpg') top left no-repeat;
+}
+
+	
+}
